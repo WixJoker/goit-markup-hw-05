@@ -282,6 +282,27 @@ li .properties-content {
   margin-right: 30px;
   justify-content: space-between;
 }
+.activities-images-item {
+  position: relative;
+  margin-bottom: 0;
+}
+.activities-images-item > .activities-text {
+  position: absolute;
+  margin-top: -70px;
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  padding: 27px 80px;
+}
+.activities-text p {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-background-color);
+}
 .section-title {
   margin-bottom: 50px;
 
