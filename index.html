@@ -43,7 +43,13 @@
         <section class="section hero centered">
             <div class="container">
             <h1 class="hero-title container">Эффективные решения для вашего бизнеса</h1>
-            <div class="button=container"><button type="button" class="hero-button">Заказать услугу</button></div>
+            <div class="button=container"><button data-modal-open type="button" class="hero-button">Заказать услугу</button></div>
+            </div>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal">
+                    <p></p>
+                    <button data-modal-close type="button" class="close-modal-button"></button>
+                </div>
             </div>
         </section>
         <!-- КАЧЕСТВА -->
@@ -162,5 +168,6 @@
             </div>
         </div>
     </footer>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
