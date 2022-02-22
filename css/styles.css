@@ -126,6 +126,7 @@ ul {
 }
 .header-link.current::after {
   display: block;
+  margin-top: 28px;
   content: "";
   height: 4px;
   background-color: var(--accent-color);
