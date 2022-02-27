@@ -582,7 +582,7 @@ footer {
   letter-spacing: inherit;
   color: var(--primary-background-color);
 
-  transition: color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .footer-info li:not(:last-child) {
   margin-bottom: 9px;
@@ -616,7 +616,7 @@ footer {
   border-radius: 50%;
   align-items: center;
 
-  transition: color 250ms var(--timing-function);
+  transition: background-color 250ms var(--timing-function);
 }
 .footer-social-media-icons li:not(:last-child) {
   margin-right: 10px;
